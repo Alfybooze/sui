@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:#242424;
+    color: white;
+    width: 100%;
+}
+#nav-con{
+    border-bottom:ridge;
+    width: 100%;
+}
+#nav{
+    
+ li a{
+    color: white; 
+ }
+
+}
+
+#sui{
+    padding-top: 5px;
+    color:#259bbe;
+}
