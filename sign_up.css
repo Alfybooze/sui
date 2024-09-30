@@ -291,16 +291,49 @@ body {
 }
 #intro{
 	padding-left:10px ;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
+	font-size: small;
 }
 #get_pass{
 	text-decoration: none;
 	color: white;
+	font-size: small;
 }
 #get_pass:hover{
 	color: #30e1df;
-	transition: 2s;
+	transition: 1s;
 }
 #greetings{
 	padding-left: 5px;
+	color: #30e1df;
+}
+#get_pass2{
+	padding-top: 20px;
+}
+#get_pass3{
+	text-decoration: none;
+	color: white;
+	font-size: small;
+}
+#get_pass3:hover{
+	color: #30e1df;
+	transition: 1s;
+}
+#get_pass4{
+	padding-left: 10px;
+}
+#done_remark{
+text-align: center;
+padding-top: 20px;
+}
+#b2s{
+	background-color: #259bbe;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-top: 20px;
+	a{
+		text-decoration: none;
+		color: white;
+	}
+
 }
