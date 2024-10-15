@@ -336,4 +336,35 @@ padding-top: 20px;
 		color: white;
 	}
 
+}@keyframes riseUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.form-right {
+    animation: riseUp 1s ease-in-out;
+    animation-delay: 0.5s;
+}
+
+.form-left img {
+	animation: riseUp 1s ease-in-out;
+    animation-delay: 0.7s; 
+}
+
+.form-row, .form-row-last {
+    animation: riseUp 1s ease-in-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+#nav-con {
+    animation: riseUp 1s ease-in-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
 }
